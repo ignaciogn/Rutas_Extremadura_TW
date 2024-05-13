@@ -1,0 +1,691 @@
+/* Estilo del titulo de la pagina */
+h1.cabeza {
+	color: black;
+	text-align: center;
+	font-size: 250%;
+	padding: 10px 0;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	-webkit-text-stroke: 2px white;
+}
+
+div.cabecera {
+	background-color: rgb(0, 129, 45);
+	border: 3px solid rgb(0, 129, 45);
+}
+
+/* Estilo del menu principal de la pagina */
+/* div.menu2 {
+    margin: 5px 0px 25px 0px;
+    border-bottom: 3px solid#8B0000;
+    border-top: 3px solid#8B0000;
+    border-right: 2px solid#8B0000;
+    border-left: 2px solid#8B0000;
+    background-color: #F5DEB3;
+    overflow: auto;
+    white-space: nowrap;
+    text-align: center;
+}
+
+div.menu2 a {
+    display: inline-block;
+    color: #8B0000;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    
+}
+
+div.menu2 a:hover {
+    background-color: #998869;
+}
+
+div.menu2 #activo {
+    background-color: #777777;
+} */
+
+/* Estilo para el encabezado h1 */
+h1.inicio {
+	font-size: 48px; /* Tamaño de fuente */
+	font-weight: bold; /* Peso de fuente */
+	color: #000000; /* Color de fuente */
+	text-align: center; /* Alineación del texto */
+	margin-top: 100px; /* Margen superior */
+}
+
+/* Estilo para el párrafo p */
+p.inicio {
+	font-size: 18px; /* Tamaño de fuente */
+	color: #666666; /* Color de fuente */
+	text-align: center; /* Alineación del texto */
+	max-width: 800px; /* Ancho máximo del párrafo */
+	margin: 0 auto; /* Centrar horizontalmente */
+	margin-top: 20px; /* Margen superior */
+	margin-bottom: 40px; /* Margen inferior */
+}
+
+/* Estilo para el formulario */
+form.login {
+	max-width: 400px; /* Ancho máximo del formulario */
+	margin: 0 auto; /* Centrar horizontalmente */
+	padding: 20px; /* Espaciado interno */
+	background-color: #f9f9f9; /* Color de fondo */
+	border: 1px solid #dddddd; /* Borde */
+	border-radius: 5px; /* Bordes redondeados */
+}
+
+/* Estilo para las etiquetas del formulario */
+form.login label {
+	display: block; /* Mostrar en bloque */
+	margin-bottom: 5px; /* Margen inferior */
+}
+
+/* Estilo para los campos de entrada de texto del formulario */
+form.login input[type="text"], form.login input[type="password"] {
+	width: 100%; /* Ancho del campo de entrada */
+	padding: 8px; /* Espaciado interno */
+	margin-bottom: 10px; /* Margen inferior */
+	border: 1px solid #dddddd; /* Borde */
+	border-radius: 3px; /* Bordes redondeados */
+}
+
+/* Estilo para el botón de envío del formulario */
+form.login input[type="submit"] {
+	display: block; /* Mostrar en bloque */
+	width: 100%; /* Ancho del botón */
+	padding: 10px; /* Espaciado interno */
+	background-color: #007bff; /* Color de fondo */
+	color: #ffffff; /* Color de fuente */
+	font-weight: bold; /* Peso de fuente */
+	text-align: center; /* Alineación del texto */
+	border: none; /* Sin borde */
+	border-radius: 3px; /* Bordes redondeados */
+	cursor: pointer; /* Cursor de tipo puntero */
+}
+
+/* Estilo para el campo de entrada oculto del formulario */
+form.login input[type="hidden"] {
+	display: none; /* Ocultar el campo de entrada */
+}
+
+/* Estilo para el párrafo con clase "login" */
+p.login {
+	text-align: center; /* Alineación del texto */
+	margin-top: 10px; /* Margen superior */
+}
+
+.alta {
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	font-size: 24px;
+}
+
+.alta1 {
+	max-width: 400px;
+	margin: 0 auto;
+	background-color: #FFF;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+table {
+	width: 100%;
+}
+
+td {
+	padding: 5px;
+	font-size: 14px;
+}
+
+input[type="text"], input[type="password"] {
+	width: 100%;
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	font-size: 14px;
+	margin-top: 5px;
+}
+
+input[type="submit"], input[type="reset"] {
+	margin-top: 10px;
+	padding: 10px 15px;
+	background-color: #007BFF;
+	color: #FFF;
+	font-size: 16px;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+	background-color: #0056b3;
+}
+
+#Menu, .menu2 {
+	margin: 5px 0px 25px 0px;
+	background-color: #F5DEB3;
+	overflow: auto;
+	white-space: nowrap;
+	text-align: center;
+	display: flex;
+	/* Cambio para que los elementos estén en una línea horizontal */
+	justify-content: center; /* Centra los elementos horizontalmente */
+}
+
+#Menu a, .menu2 a {
+	display: inline-block;
+	color: #8B0000;
+	text-align: center;
+	padding: 14px;
+	text-decoration: none;
+	margin-right: 10px; /* Espacio entre los elementos del menú */
+}
+
+#Menu a:hover, .menu2 a:hover {
+	background-color: #998869;
+}
+
+p.info {
+	font-size: 24px; /* Tamaño de fuente */
+	font-weight: bold; /* Negrita */
+	color: #8B0000; /* Color de texto */
+	text-align: center; /* Centrado de texto */
+	margin: 0; /* Margen */
+	padding: 10px; /* Relleno */
+	font-family: "Arial", sans-serif; /* Estilo de letra */
+}
+
+/* .tabla {
+	font-size: 48px;
+	text-align: center;
+	color: #333;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+	background-color: #fff;
+	border-radius: 5px;
+}
+
+td, th {
+	border: 1px solid #ccc;
+	padding: 12px;
+}
+
+th {
+	background-color: #f8f8f8;
+	font-weight: bold;
+}
+
+tr:nth-child(even) {
+	background-color: #f8f8f8;
+}
+
+tr:hover {
+	background-color: #f2f2f2;
+}
+ */
+.rutaU {
+	text-align: center;
+	font-size: 42px; /* Tamaño de fuente aumentado */
+	font-weight: bold;
+	color: #334257; /* Color de texto personalizado */
+	text-transform: uppercase; /* Transformar el texto a mayúsculas */
+	margin-bottom: 30px; /* Margen inferior aumentado */
+	text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+	letter-spacing: 1px; /* Espaciado entre letras */
+	padding-top: 20px; /* Aumento de espacio en la parte superior */
+}
+
+.ruta {
+	margin: 0 auto; /* Centrar la tabla en el centro de la página */
+	border-collapse: collapse;
+	width: 90%; /* Ancho de la tabla */
+	max-width: 1000px; /* Ancho máximo de la tabla */
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8); /* Sombra más pronunciada */
+	background-color: #f9f9f9; /* Color de fondo de la tabla */
+	border-radius: 10px; /* Borde redondeado */
+	overflow: hidden; /* Ocultar el desbordamiento */
+	font-size: 18px; /* Tamaño de letra aún más grande */
+}
+
+/* Estilo para las celdas de la tabla */
+.ruta td, .ruta th {
+	padding: 15px; /* Mayor espacio interno */
+	border: 1px solid #ddd; /* Borde con color gris claro */
+	text-align: left; /* Alineación del texto a la izquierda */
+}
+
+/* Estilo para las celdas de la tabla con negrita */
+.ruta td p b {
+	font-weight: bold;
+	font-size: 20px;
+	color: black;
+}
+
+/* Estilo para la imagen */
+.ruta img {
+	max-width: 100%; /* Ancho máximo de la imagen */
+	height: auto; /* Altura automática de la imagen */
+	display: block; /* Mostrar la imagen como bloque */
+	margin: 15px auto; /* Mayor margen */
+	border-radius: 10px; /* Borde redondeado */
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+}
+
+.tabla {
+	font-size: 32px; /* Aumentar tamaño de la fuente */
+	font-weight: bold;
+	color: #fff;
+	background-color: #333;
+	padding: 10px;
+	margin-top: 0;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.rutas {
+	border-collapse: collapse;
+	width: 100%;
+	table-layout: fixed;
+	height: 400px;
+	overflow-y: auto;
+	border: 2px solid #333; /* Agregar borde alrededor de la tabla */
+	border-radius: 5px; /* Agregar bordes redondeados a la tabla */
+}
+
+.rutas th, .rutas td {
+	border: 1px solid #ddd;
+	padding: 10px;
+	text-align: left;
+}
+
+.rutas th {
+	background-color: #f8f8f8;
+	font-weight: bold;
+	color: #333;
+	font-size: 18px; /* Aumentar tamaño de la fuente de las cabeceras */
+	padding-top: 15px; /* Agregar espacio superior para separar el borde */
+	padding-bottom: 15px;
+	/* Agregar espacio inferior para separar el borde */
+}
+
+.rutas td {
+	font-size: 16px; /* Aumentar tamaño de la fuente de las celdas */
+	height: 100px;
+}
+
+.rutas td a {
+	text-decoration: none;
+	color: #007bff;
+	transition: color 0.3s;
+}
+
+.rutas td a:hover {
+	color: #ff0000;
+}
+
+.rutas tr:nth-child(even) {
+	background-color: #f8f8f8;
+}
+
+.rutas tr:nth-child(odd) {
+	background-color: #ffffff;
+}
+
+.rutas td:first-child {
+	font-weight: bold;
+	color: #007bff;
+}
+
+/* Estilo para el formulario */
+/* Estilo para los fieldsets */
+fieldset {
+	margin-bottom: 20px;
+	padding: 20px;
+	border: 2px solid #333;
+	border-radius: 10px;
+	background-color: #f9f9f9;
+	font-size: 16px;
+	color: #333;
+}
+
+/* Estilo para las leyendas de los fieldsets */
+legend {
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+/* Estilo para el título del formulario */
+h1#titulo {
+	color: #333;
+	font-size: 28px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+/* Estilo para los fieldsets */
+
+/* Estilo para las etiquetas de los campos de entrada */
+b {
+	color: #666;
+	display: block;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+/* Estilo para los campos de entrada */
+input[type="text"], input[type="tel"], input[type="date"], input[type="time"],
+	input[type="number"], select {
+	border: none;
+	border-bottom: 2px solid #ccc;
+	padding: 5px;
+	margin-bottom: 10px;
+	width: 100%;
+	font-size: 16px;
+	color: #333;
+	background-color: #f9f9f9;
+}
+
+/* Estilo para los checkboxes */
+input[type="checkbox"] {
+	margin-top: 10px;
+	margin-bottom: 20px;
+	margin-right: 5px;
+}
+
+/* Estilo para los botones de envío y reinicio */
+input[type="submit"], input[type="reset"] {
+	border: none;
+	padding: 10px 20px;
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+	background-color: #333;
+	color: #fff;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+/* Estilo para los botones de envío y reinicio al pasar el cursor por encima */
+input[type="submit"]:hover, input[type="reset"]:hover {
+	background-color: #555;
+}
+
+/* Estilo para los mensajes de error de validación */
+.error {
+	color: #ff0000;
+	font-size: 14px;
+	margin-top: -10px;
+	margin-bottom: 10px;
+}
+
+#Menu-reserva {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+	background-color: #007bffb0;
+}
+
+#Menu-reserva form {
+	margin-right: 10px;
+}
+
+#Menu-reserva a {
+	display: inline-block;
+	padding: 12px 24px;
+	background-color: #fff;
+	color: #007bff;
+	text-decoration: none;
+	font-weight: bold;
+	border-radius: 4px;
+	transition: background-color 0.3s ease;
+	border: none;
+	cursor: pointer;
+}
+
+#Menu-reserva a:hover {
+	background-color: #0056b3;
+	color: #fff;
+}
+
+#Menu-reserva input[type="hidden"] {
+	display: none;
+}
+
+@media screen and (max-width: 768px) {
+	#Menu-reserva form {
+		margin-right: 0;
+		margin-top: 10px;
+	}
+}
+  .MISreservas {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(0, 0, 0)  ;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    background-color: rgb(192, 192, 192);  ; /* Color de fondo ajustable */
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+/* Otros estilos de la tabla */
+.Misreservas {
+	width: 100%;
+	margin-top: 20px;
+	border-collapse: collapse;
+}
+
+.Misreservas th, .Misreservas td {
+	padding: 10px;
+	text-align: center;
+}
+
+.Misreservas th {
+	background-color: #f0f0f0;
+	color: #333;
+	font-weight: bold;
+}
+
+.Misreservas td {
+	border: 1px solid #ccc;
+}
+
+.Misreservas tr:nth-child(even) {
+	background-color: #f8f8f8;
+}
+
+.Misreservas tr:hover {
+	background-color: #e0e0e0;
+	cursor: pointer;
+}
+
+.Misreservas td:last-child {
+	text-align: center;
+}
+
+.Borrar {
+	background-color: #f8d7da;
+	border: 1px solid #f5c6cb;
+	color: #721c24;
+	padding: 20px;
+	margin: 20px;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.Autenticacion {
+	background-color: #d4edda;
+	border: 1px solid #c3e6cb;
+	color: #155724;
+	padding: 20px;
+	margin: 20px;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.error2 {
+	padding: 20px;
+	margin-bottom: 20px;
+	border: 2px solid #ff6b6b;
+	background-color: #fce8e8;
+	color: #ff6b6b;
+	font-size: 25px;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.boton {
+	display: inline-block;
+	padding: 12px 24px;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	background-color: #ff6b6b;
+	color: #fff;
+	border: 2px solid #ff6b6b;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: background-color 0.3s ease, color 0.3s ease, border-color
+		0.3s ease;
+}
+
+.boton:hover {
+	background-color: #e63e3e;
+	border-color: #e63e3e;
+}
+
+.boton:active {
+	background-color: #cc1c1c;
+	border-color: #cc1c1c;
+}
+
+.boton:focus {
+	outline: none;
+}
+
+.boton2 {
+	display: inline-block;
+	padding: 15px 20px;
+	background-color: #F0E68C;
+	color: #0000FF; /* Color azul para el texto */
+	text-decoration: none;
+	border-radius: 5px;
+	font-size: 16px;
+	font-weight: bold;
+	transition: background-color 0.3s ease;
+	border: 1px solid #0000FF;
+	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.boton2:hover {
+	background-color: #E6C856;
+	/* Cambio de color de fondo al pasar el cursor por encima */
+}
+
+.boton3 {
+	display: inline-block;
+	padding: 15px 20px; /* Mayor altura */
+	background-color: #87CEFA;
+	color: #0000FF; /* Color azul para el texto */
+	text-decoration: none;
+	border-radius: 5px;
+	font-size: 16px;
+	font-weight: bold;
+	transition: background-color 0.3s ease;
+	border: 1px solid #0000FF; /* Borde de 1px sólido en color azul */
+	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.boton3:hover {
+	background-color: #6CA6CD;
+	/* Cambio de color de fondo al pasar el cursor por encima */
+}
+
+/* Estilo para el botón 2 */
+.boton2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+/* 	height: 100%; */
+}
+
+/* Estilo para el botón 3 */
+.boton3 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+.valoraciones {
+	width: 60%;
+	margin: 0 auto;
+	border-collapse: separate;
+	border-spacing: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #000000;
+	border: 2px solid #ccc; /* Ancho y color de borde ajustable */
+	border-radius: 10px; /* Radio de borde ajustable */
+	overflow: hidden;
+}
+
+.valoraciones th, .valoraciones td {
+	padding: 12px;
+	text-align: center;
+	font-weight: bold;
+	background-color: #F2EFEF;
+	/* Color de fondo de las celdas - puedes ajustar el valor hexadecimal */
+}
+
+.valoraciones th {
+	border-bottom: 2px solid #ccc; /* Borde inferior ajustable */
+	background-color: #6D8A86;
+	/* Color de fondo de los títulos - puedes ajustar el valor hexadecimal */
+	color: #FFFFFF; /* Color de texto de los títulos */
+}
+
+.valoraciones tr:last-child td {
+	border-bottom: none; /* Quitar borde inferior de la última fila */
+}
+
+.valoracionT {
+	font-size: 32px; /* Tamaño de fuente ajustable */
+	font-weight: bold;
+	text-align: center;
+	color: #FFFFFF; /* Color de texto ajustable */
+	margin-top: 30px; /* Margen superior ajustable */
+	margin-bottom: 20px; /* Margen inferior ajustable */
+	text-transform: uppercase; /* Transformación de texto a mayúsculas */
+	background-color: #6D8A86; /* Color de fondo ajustable */
+	padding: 10px; /* Relleno ajustable */
+	border-radius: 10px; /* Radio de borde ajustable */
+}
+#valoracion {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  color: #333333;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
